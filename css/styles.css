@@ -1,0 +1,305 @@
+.bg-sena{
+    background: transparent !important;
+    border-bottom: 2px solid white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+/* Items del menú a la derecha */
+nav .navbar-collapse{
+    justify-content: flex-end;
+}
+nav .navbar-collapse .nav-link{
+    color: white;
+    padding: 10px 30px;
+    margin: 0 30px;
+    border-bottom: 1px solid transparent;
+    position: relative;
+}
+nav .navbar-collapse .nav-link:hover{
+    border-bottom: 1px solid white;
+}
+section .General{
+    bottom: 50px;
+}
+#carouselHeroCaptions .carousel-item .carousel-caption{
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    z-index: 10;
+    text-align: left;
+}
+.carousel-item .carousel-caption h5{
+    font-size: 70px;
+    text-transform: uppercase;
+}
+.carousel-item .carousel-caption p{
+    font-size: 25px;
+}
+.carousel-item .carousel-caption button{
+    background: #4F83D1;
+    padding: 12px 40px;
+    font-size: 30px;
+    color: white;
+    border-color: transparent;
+}
+#play-video{
+    position: absolute;
+    z-index: 999;
+    right: 20%;
+    top: 30%;
+    height: 100px;
+    background: transparent;
+    border-color: transparent;
+}
+nav .navbar-brand{
+    font-size: 30px;
+    color: white;
+}
+#about{
+    width: 100%;
+    position: relative;
+    padding-top: 100px;
+    background: #0a3068e8;
+}
+#about .card1{
+    padding: 30px;
+    border: 2px solid rgb(254, 254, 254);
+    box-shadow: 0px 0px 9px 0px #676767 ;
+    text-align: center;
+    background: #fff;
+}
+#about .card1 i{
+    font-size: 50px;
+    color: #4F83D1;  
+}
+#about .card1 p{
+    font-size: 16px;
+    color: #999;
+}
+#about .card2{
+    padding: 30px;
+    background: #4F83D1;
+    border: 2px solid rgb(254, 254, 254);
+    box-shadow: 0px 0px 9px 0px #676767 ;
+    text-align: center;
+}
+#about .card2 h3{
+    color: #fff;
+}
+#about .card2 p{
+    font-size: 16px;
+    color: #999;
+}
+#about .card2 button{
+    background: #fff;
+    font-size: 20px;
+    color: #4F83D1;
+    padding: 10px 40px;
+    border-color: transparent;
+}
+
+#about .cont-cards{
+    justify-content: space-around;
+    position: relative;
+    top: -140px;
+    z-index: 9;
+}
+.section2-tour{
+    position: relative;
+}
+.section2-tour .right{
+    background: #fff;   
+}
+.section2-tour .right h2{
+    font-size: 56px;
+}
+.section2-tour .right p{
+    font-size: 22px;
+    color: #999;
+    padding: 8px;
+}
+.section2-tour .right h3{
+    padding-top: 18px;
+    font-size: 26px;
+}
+.section2-tour .contenido-rigth {
+    border-left: 4px solid #4F83D1;
+    padding-left: 20px;
+    margin-left: 28px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.section2-tour .contenido-rigth p{   
+    text-align: left;
+    color: #000;
+    margin-left: 20px;
+}
+.section2-tour button{
+    font-size: 24px;
+    background: #4F83D1;
+    margin-left: 24px ;
+}
+.section2-tour ul li{
+    padding-top: 20px;
+    padding-left: 40px;
+    font-size: 22px;
+    list-style: none;
+}
+.section2-tour .info-text {
+    position: relative;   
+}
+.section2-tour .info-text div.section2-texto  {
+    text-align: left;
+    position: absolute;
+    right: 13px;
+    z-index: 1;
+    bottom: -71px;
+    background: #4F83D1;
+}
+.section2-tour .info-text div.section2-texto::after{
+    content:"";
+    width: 50%;
+    background: url(../img/Polygon\ 1.png) no-repeat;
+    height: 100%;
+    position: absolute;
+    bottom: -50px;
+    left: -70px;
+   
+}
+.section2-tour .info-text div p{
+    margin: 10px;
+    font-size: 18px;
+}
+#servicios{
+    width: 100%;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #0a3068e8;
+}
+#servicios .row {
+    text-align: center;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+#servicios .row .card-servicios {
+    background: #4F83D1;
+    border-radius: 20px;
+    margin-top:20px ;
+    margin-bottom: 20px;
+    padding: 12px;
+    box-shadow: 0px 0px 9px 0px #676767 ;
+    border-radius: 20px;
+}
+#servicios .row .card-servicios #videos{
+    position: relative;
+    width: 100%;
+    padding: 10px ;
+    overflow: hidden;
+}
+#servicios .row .card-servicios #videos iframe{
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 100%;  
+}
+#servicios .row i{
+    height: 40px;
+    font-size: 60px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+#servicios .row h2{
+    font-size: 48px;
+}
+#servicios .row  h3{
+    font-size: 22px;
+}
+#servicios .row p {
+    font-size: 20px;
+    color: #474747;
+}
+#servicios .row a{
+    font-size: 26px;
+    color: aquamarine;
+}
+#servicios .row button{
+    background: #999;
+    border-radius: 50px;
+    font-size: 18px;
+    padding: 10px;
+}
+#ciclismo {
+    text-align: center;
+    background: #0a3068e8;
+}
+#ciclismo .card-ciclismo{
+    margin-top: 50px;
+    margin-bottom: 50px;
+   
+}
+#ciclismo h2{
+    font-size: 50px;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#ciclismo h3{
+    color: #fff;
+}
+#ciclismo p{
+    color: #000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#ciclismo i{
+    font-size: 45px;
+}
+#ciclismo div.img-texto{
+    position: relative;
+}
+#ciclismo div.ciclismo-texto p{
+    font-size: 24px;
+    padding: 10px;
+}
+#ciclismo div.ciclismo-texto {
+    text-align: left;
+    position: absolute;
+    bottom: 6px;
+    left: 18px;
+    z-index: 9;
+    border-radius: 10px;
+    background: #4F83D1;
+}
+#ciclismo .card-ciclismo.img-carousel {
+    background: #4F83D1;
+}
+#ciclismo .card-ciclismo.img-carousel p{
+    font-size: 18px;
+    padding: 10px;
+}
+#ciclismo .card-ciclismo.img-carousel img{
+    height: 146px;
+    width: 160px;
+    border-radius: 50%;
+}
+/* Preguntas Frecunetes section */
+#preguntasFrecuentes{
+    background: #0a3068e8;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#preguntasFrecuentes h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+
